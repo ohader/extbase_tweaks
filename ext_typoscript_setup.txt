@@ -1,0 +1,7 @@
+config.tx_extbase {
+	objects {
+		Tx_Extbase_Persistence_Storage_BackendInterface {
+			className = Tx_ExtbaseTweaks_Persistence_Storage_Typo3DbBackend
+		}
+	}
+}
